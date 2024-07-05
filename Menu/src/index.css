@@ -1,0 +1,150 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 90vw;
+  max-width: 800px;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.title-underline {
+  background: #ffaa1d;
+  width: 9rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.menu {
+  padding: 5rem 0;
+}
+
+.img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem solid #ffaa1d;
+  border-radius: 0.25rem;
+  display: block;
+}
+
+.btn {
+  background: #ffaa1d;
+  border-color: transparent;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 0.25rem;
+}
+
+.btn:hover {
+  background: #fdf1cb;
+  color: #ffaa1d;
+}
+
+.btn-container {
+  margin: 2rem 0 4rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.menu-item {
+  background: white;
+  border-radius: 0.25rem;
+  max-width: 25rem;
+}
+
+.menu-item .img {
+  height: 15rem;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.item-info {
+  padding: 1.5rem;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.item-info h5 {
+  font-weight: 500;
+}
+
+.item-price {
+  background: #ffaa1d;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  letter-spacing: ;
+  border-radius: 0.25rem;
+}
+
+.item-text {
+  line-height: 2;
+  color: hsl(210, 22%, 49%);
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
