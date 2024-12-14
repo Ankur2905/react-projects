@@ -295,7 +295,7 @@ nav {
   color: var(--primary-500);
   padding-left: 1.5rem;
 }
-/* 160px */
+
 
 .links-container {
   overflow: hidden;
@@ -326,7 +326,7 @@ nav {
   }
   .links {
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
   }
   .links a {
     padding: 0;
