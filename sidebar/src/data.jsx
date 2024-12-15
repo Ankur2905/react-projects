@@ -4,12 +4,12 @@ import {
   FaFacebook,
   FaLinkedin,
   FaTwitter,
-  FaSketch,
   FaHome,
   FaUserFriends,
   FaFolderOpen,
   FaCalendarAlt,
   FaWpforms,
+  FaSnapchat,
 } from "react-icons/fa";
 export const links = [
   {
@@ -67,7 +67,7 @@ export const social = [
   },
   {
     id: 5,
-    url: "https://www.twitter.com",
-    icon: <FaSketch />,
+    url: "https://www.snapchat.com",
+    icon: <FaSnapchat />,
   },
 ];
