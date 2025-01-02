@@ -1,5 +1,9 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import toursImg from './assets/tours.png';
+import menuImg from './assets/menu.png';
+import mixmasterImg from './assets/mixmaster.png'
+
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -32,26 +36,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: toursImg,
+    url: "https://tourzz.netlify.app/",
+    github: "https://github.com/Ankur2905/react-projects/tree/main/Tours",
+    title: "Tours",
+    text: "Tours is a React-based app that displays a list of tour plans fetched from an API. Users can mark tours as 'Not Interested,' which removes them from the list.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "second project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: menuImg,
+    url: "https://our-foood-menu.netlify.app/",
+    github: "https://github.com/Ankur2905/react-projects/tree/main/Menu",
+    title: "Menu",
+    text: "Menu is a dynamic food filtering app built with React, allowing users to browse and filter dishes by categories like Breakfast, Lunch, Shakes, and All",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "third project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: mixmasterImg,
+    url: "https://cocktail-mix-master-reactrouter.netlify.app/",
+    github: "https://github.com/Ankur2905/react-projects/tree/main/mixmaster",
+    title: "MixMaster",
+    text: "Mix Master is a cocktail recipe app built with React, allowing users to search for drinks by name and view detailed information about each cocktail.",
   },
 ];
