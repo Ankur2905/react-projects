@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import toursImg from './assets/tours.png';
 import menuImg from './assets/menu.png';
 import mixmasterImg from './assets/mixmaster.png'
+import sliderImg from "./assets/slider.png";
 
 
 export const links = [
@@ -57,5 +58,13 @@ export const projects = [
     github: "https://github.com/Ankur2905/react-projects/tree/main/mixmaster",
     title: "MixMaster",
     text: "Mix Master is a cocktail recipe app built with React, allowing users to search for drinks by name and view detailed information about each cocktail.",
+  },
+  {
+    id: nanoid(),
+    img: sliderImg,
+    url: "https://react-projects-sliderr.netlify.app/",
+    github: "https://github.com/Ankur2905/react-projects/tree/main/Slider",
+    title: "Slider",
+    text: "The Slider project is a React app that auto-slides profiles with a name, image, and description, with manual Next and Previous navigation.",
   },
 ];
